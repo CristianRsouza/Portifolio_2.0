@@ -1,0 +1,33 @@
+.Terminal {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background: black;
+    position: absolute;
+    animation: terminal 0.3s forwards;
+    overflow: hidden;
+}
+
+@keyframes terminal {
+    from {
+        opacity: 0;
+        top: 100%;
+        width: 100px;
+        height: 100px;
+    }
+    to {
+    top: 40%;
+    opacity: 1;
+    width: 600px;
+    height: 400px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background: black;
+    position: absolute;
+    animation: terminal 0.3s forwards;
+    overflow: hidden;
+    }
+}

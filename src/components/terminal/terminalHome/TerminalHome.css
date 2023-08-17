@@ -1,0 +1,40 @@
+
+.TerminalHome {
+    color: rgb(0, 253, 0);
+    padding: 20px 30px;
+}
+
+.TerminalHome p {
+    font-size: 10px;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; 
+}
+
+.TerminalHome h1 {
+    margin: 15px 0;
+    display: flex;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; 
+    animation: typing 3s 1s steps(40, end) forwards; 
+}
+
+.TerminalHome p:nth-child(1) {
+    animation: typing 3s steps(40, end) forwards; 
+}
+.TerminalHome p:nth-child(3) {
+    animation: typing 3s 3s steps(40, end) forwards; 
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+}

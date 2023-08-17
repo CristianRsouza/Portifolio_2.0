@@ -1,0 +1,28 @@
+.TaskBar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    gap: 50px;
+}
+
+.Task {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Task:hover {
+    width: 60px;
+    height: 60px;
+}
+
