@@ -1,0 +1,35 @@
+
+.TerminalSkills {
+    color: rgb(0, 253, 0);
+    padding: 20px 30px;
+}
+
+.TerminalSkills p {
+    font-size: 10px;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; 
+}
+
+.TerminalSkills h1 {
+    margin: 15px 0;
+    display: flex;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; 
+    animation: typing 3s steps(40, end) forwards; 
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+}

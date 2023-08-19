@@ -2,7 +2,6 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
     background: black;
     position: absolute;
     animation: terminal 0.3s forwards;
@@ -19,15 +18,16 @@
     to {
     top: 40%;
     opacity: 1;
-    width: 600px;
+    width: 700px;
     height: 400px;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
-    background: black;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.69);
     position: absolute;
     animation: terminal 0.3s forwards;
     overflow: hidden;
-    }
+    -webkit-backdrop-filter: blur(20px);
+}
 }

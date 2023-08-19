@@ -7,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(89, 0, 255));
+  color: white;
+  background: linear-gradient(to bottom right, rgb(2, 52, 93), rgb(26, 4, 65));
   background-attachment: fixed;
   overflow: hidden;
   font-family: 'Press Start 2P', cursive;

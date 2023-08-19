@@ -6,11 +6,10 @@ import TerminalApp from './components/terminal/TerminalApp';
 function App() {
   const [task, setTask] = useState(null); 
 
-
   return (
     <div className='DeskTop'>
      
-     {task == 'terminal' ? <TerminalApp /> : null}
+     {task == 'terminal' ? <TerminalApp HandleClose={setTask}/> : null}
      
       <TaskBar HandleTask={setTask} /> 
     </div>
