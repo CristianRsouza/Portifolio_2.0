@@ -1,12 +1,13 @@
 import './TerminalSkills.css'
-import '../terminalHome/TerminalHome.css'
 import Skills from './Skills/Skills'
+import Voltar from '../Voltar/Voltar'
 
-const TerminalSkills = () => {
+const TerminalSkills = ({ HandlePage }) => {
     return(
         <div className='TerminalSkills'>
             <h1>Skills</h1>
             <Skills/>
+            <Voltar HandlePage={HandlePage}/>
         </div>
     )
 }

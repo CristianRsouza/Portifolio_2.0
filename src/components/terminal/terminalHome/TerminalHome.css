@@ -5,7 +5,7 @@
 }
 
 .TerminalHome p {
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     color: white;
     overflow: hidden;
@@ -16,7 +16,7 @@
 .TerminalHome h1 {
     margin: 15px 0;
     display: flex;
-    font-size: 25px;
+    font-size: 35px;
     overflow: hidden;
     white-space: nowrap;
     width: 0; 

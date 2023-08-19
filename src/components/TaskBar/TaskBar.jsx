@@ -11,7 +11,9 @@ const TaskBar = ({ HandleTask }) => {
           HandleTask('terminal');
         }}
       />
-      <AppWindow className='Task' />
+      <AppWindow className='Task' onClick={()=> {
+        HandleTask('chrome')
+      }}/>
     </div>
   );
 };

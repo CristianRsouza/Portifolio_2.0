@@ -64,9 +64,10 @@ const Skills = () => {
                <div className='skills'>
                 {skills.map(skills => 
                 <li key={skills.id}>
-                    <p>{skills.lang}</p>
-                    <p>{skills.level}</p>
-                    <p>{skills.percent}</p>
+                  <div>{skills.lang}</div>
+                  <div>{skills.level}</div>
+                  <div>{skills.percent}%</div>
+
                 </li>)
 
                 }

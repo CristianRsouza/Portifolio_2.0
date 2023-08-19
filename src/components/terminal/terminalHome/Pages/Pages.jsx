@@ -10,10 +10,14 @@ const Pages = ({ HandlePage }) => {
             }}>
                 Skills
             </div>
-            <div className='Page'>
+            <div className='Page' onClick={() => {
+                HandlePage('AboutMe')
+            }}>
                 AboutMe
             </div>
-            <div className='Page'>
+            <div className='Page' onClick={() => {
+                HandlePage('Contact')
+            }}>
                 Contact
             </div>
         </div>

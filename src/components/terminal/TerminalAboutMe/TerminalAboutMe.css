@@ -1,0 +1,40 @@
+.TermianlAboutMe {
+    color: rgb(0, 253, 0);
+    padding: 10px 30px;
+
+}
+
+.AboutMe {
+    margin: 30px 0;
+}
+
+.AboutMe p {
+    font-size: 15px;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    margin: 5px 0;
+}
+
+.TermianlAboutMe h1 {
+    margin: 20px 0;
+    display: flex;
+    font-size: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 3s steps(40, end) forwards;
+}
+
+
+.AboutMe p:nth-child(1) {
+    animation: typing 3s 0.5s steps(40, end) forwards
+}
+.AboutMe p:nth-child(2) {
+    animation: typing 3s 1s steps(40, end) forwards
+}
+.AboutMe p:nth-child(3) {
+    animation: typing 3s 1.5s steps(40, end) forwards
+}

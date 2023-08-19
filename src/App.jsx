@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import TaskBar from './components/TaskBar/TaskBar';
 import TerminalApp from './components/terminal/TerminalApp';
+import Chrome from './components/chrome/Chrome';
 
 function App() {
   const [task, setTask] = useState(null); 
@@ -10,6 +11,7 @@ function App() {
     <div className='DeskTop'>
      
      {task == 'terminal' ? <TerminalApp HandleClose={setTask}/> : null}
+     {task == 'chrome' ? <Chrome HandleClose={setTask}/> : null}
      
       <TaskBar HandleTask={setTask} /> 
     </div>
