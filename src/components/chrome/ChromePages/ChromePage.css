@@ -1,0 +1,33 @@
+.ChromePages {
+    display: flex;
+    gap: 40px;
+}
+
+.ChromePage {
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.ChromePage:hover {
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+.ChromeHome {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ChromeHome h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 20px 0;
+}
+

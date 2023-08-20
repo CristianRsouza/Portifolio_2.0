@@ -1,0 +1,34 @@
+.Chrome {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    position: absolute;
+    animation: Chrome 0.3s forwards;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes Chrome {
+    from {
+        opacity: 0;
+        top: 100%;
+        width: 100px;
+        height: 100px;
+    }
+    to {
+    top: 40%;
+    opacity: 1;
+    width: 1000px;
+    height: 500px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.545);
+    position: absolute;
+    animation: Chrome 0.3s forwards;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(20px);
+}
+}
